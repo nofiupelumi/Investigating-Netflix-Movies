@@ -44,8 +44,8 @@ plt.scatter(x=netflix_df['release_year'], y=netflix_df['duration'], c=colors)
 plt.title("Movie Duration by Year of Release")
 plt.xlabel("Release year")
 plt.ylabel("Duration (min)")
-plt.show()```
-
+plt.show()
+```
 # Analysis Question
 Now, the critical question is: "Are we certain that movies are getting shorter?" Evaluate the data and provide your answer as a string assigned to the variable answer. Possible answers are "yes," "no," or "maybe."
 
